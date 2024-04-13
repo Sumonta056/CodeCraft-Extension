@@ -1,18 +1,15 @@
-
-<div style="display: flex; align-items: center;">
-  <img src="./public/tools.png" width="40px">
-  <h1 style="margin-left: 10px;">CodeCraft Extension</h1>
-</div>
+<div align ="center">
+  <img src="./public/tools.png" width="100px"><h1>CodeCraft Extension</h1>
 
 CodeCraft Extension is an open-source project that provides A Complete Toolkit for Software Engineering Students. This project is open to contributions.
 
 ![alt text](./assets/image.png)
 
+</div>
+
 ## 📝 Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-<hr>
 
 ## ❓ Prerequisites
 

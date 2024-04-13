@@ -10,6 +10,11 @@ import fontaweome from "./assets/fontawesome.svg";
 import animated from "./assets/animated.png";
 import freeIcons from "./assets/bullhorn.png";
 
+import TailwindCSS1 from "./assets/tailwindcss.png";
+import TailwindCSS2 from "./assets/documenation.png";
+import TailwindCSS3 from "./assets/button.png";
+import TailwindCSS4 from "./assets/colors.png";
+
 export const frontendTools = [
   {
     id: 1,
@@ -114,20 +119,29 @@ export const icons = [
 export const TailwindCSS = [
   {
     id: 1,
-    name: "Tailwind CSS Buttons Template",
-    link: "https://flowbite.com/docs/components/buttons/",
-    image: "icon1",
+    name: "TailwindCSS Docs.",
+    link: "https://tailwindcss.com/docs/installation",
+    image: <img src={TailwindCSS2} alt="ColorHunt" width="40" height="40" />,
     type: "Button",
     description:
-      "With support for multiple styles, colors, sizes, gradients, and shadows",
+      "Official TailwindCSS Documentation for Installation and Usage.",
+  },
+  {
+    id: 1,
+    name: "TailwindCSS Colors",
+    link: "https://flowbite.com/docs/components/buttons/",
+    image: <img src={TailwindCSS4} alt="ColorHunt" width="40" height="40" />,
+    type: "Button",
+    description:
+      "Tailwind CSS Colors - A curated list of colors for Tailwind CSS",
   },
   {
     id: 2,
-    name: "Flowbites : TailwindCSS Templates",
+    name: "Flowbite Templates",
     link: "https://flowbite.com/",
-    image: "icon2",
+    image: <img src={TailwindCSS1} alt="ColorHunt" width="40" height="40" />,
     type: "Type2",
-    description: "Free Tailwind CSS UI Components",
+    description: "Tailwind CSS Templates for Web Developers and Designers.",
   },
   {
     id: 2,
@@ -137,6 +151,15 @@ export const TailwindCSS = [
     type: "Illustration",
     description:
       "A curated list of box shadows for TailwindCSS and Vanilla CSS.",
+  },
+  {
+    id: 1,
+    name: "TailwindCSS Buttons ",
+    link: "https://flowbite.com/docs/components/buttons/",
+    image: <img src={TailwindCSS3} alt="ColorHunt" width="40" height="40" />,
+    type: "Button",
+    description:
+      "With support for multiple styles, colors, sizes, gradients, and shadows",
   },
 
   // Add more objects as needed

@@ -1,18 +1,49 @@
-<img src ="./public/tools.png" width="70px">
-
-# ⚙️ CodeCraft Extension
+<div style="display: flex; align-items: center;">
+  <img src="./public/tools.png" width="40px">
+  <h1 style="margin-left: 10px;">CodeCraft Extension</h1>
+</div>
 
 CodeCraft Extension is an open-source project that provides A Complete Toolkit for Software Engineering Students. This project is open to contributions.
 
 ![alt text](./assets/image.png)
 
-## Getting Started
+## 📝 Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-## Setup Extension in Your Browser
+## ✍🏻 Setup Extension in Your Browser
 
-### Google Chrome / Microsoft Edge
+<hr>
+
+### ❓ Prerequisites
+
+- Node.js
+- npm
+
+### ⚙️ Installation
+
+1. Clone the repo
+   ```bash
+   git clone https://github.com/Sumonta056/CodeCraft-Extension.git
+   ```
+2. Go to the folder where you cloned the repo
+   ```bash
+   cd CodeCraft-Extension
+   ```
+3. Install NPM packages
+   ```bash
+    npm install
+   ```
+4. Run the development server
+   ```bash
+     npm run dev
+   ```
+5. Build the extension
+   ```bash
+     npm run build
+   ```
+
+### 📄 Google Chrome / Microsoft Edge
 
 1. Open the Extension Management page by navigating to `chrome://extensions` (for Chrome) or `edge://extensions` (for Edge). The Extension Management page can also be opened by clicking on the Chrome menu, hovering over **More Tools** then selecting **Extensions**.
 
@@ -24,11 +55,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 <hr>
 
-### Contributing to CodeCraft Extension
+### 🛂 Contributing to CodeCraft Extension
 
 Read The Guidelines : <a href="https://github.com/Sumonta056/GitHub-Follower-Notification-Action-Bot/blob/main/Contribution.md">Here</a>
 
-### License
+### 🔖 License
 
 This project is licensed under the terms of the MIT license.
 

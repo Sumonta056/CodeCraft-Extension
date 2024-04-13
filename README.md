@@ -1,8 +1,10 @@
-# CodeCraft Extension
+<img src ="./public/tools.png" width="70px">
+
+# ⚙️ CodeCraft Extension
 
 CodeCraft Extension is an open-source project that provides A Complete Toolkit for Software Engineering Students. This project is open to contributions.
 
-![alt text](image.png)
+![alt text](./assets/image.png)
 
 ## Getting Started
 
@@ -18,28 +20,20 @@ These instructions will get you a copy of the project up and running on your loc
 
 3. Click the **Load unpacked** button and select the extension directory.
 
-![Load Extension](./load_extension.png)
+![alt text](./assets/image-1.png)
 
-### Firefox
+<hr>
 
-1. Open the `about:debugging` page.
+### Contributing to CodeCraft Extension
 
-2. Click **This Firefox** (in newer versions of Firefox), click **Load Temporary Add-on** and select any file in your extension's directory:
+Read The Guidelines : <a href="https://github.com/Sumonta056/GitHub-Follower-Notification-Action-Bot/blob/main/Contribution.md">Here</a>
 
-![Load Temporary Add-on](./load_temporary_addon.png)
+### License
 
-The extension will now be installed, and will stay until you restart Firefox.
+This project is licensed under the terms of the MIT license.
 
-Please note that this is a temporary installation, you'll need to repeat these steps every time you restart Firefox.
+<hr>
 
-### Prerequisites
-
-- Node.js
-- npm
-
-### Installation
-
-1. Clone the repo
-   ```bash
-   git clone https://github.com/yourusername/yourextensionname.git
-   ```
+<div align="center">
+<strong>&copy; 2024 All Rights Reserved by Sumonta Saha Mridul</strong>
+</div>

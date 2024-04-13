@@ -1,3 +1,4 @@
+
 <div style="display: flex; align-items: center;">
   <img src="./public/tools.png" width="40px">
   <h1 style="margin-left: 10px;">CodeCraft Extension</h1>
@@ -11,16 +12,14 @@ CodeCraft Extension is an open-source project that provides A Complete Toolkit f
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-## ✍🏻 Setup Extension in Your Browser
-
 <hr>
 
-### ❓ Prerequisites
+## ❓ Prerequisites
 
 - Node.js
 - npm
 
-### ⚙️ Installation
+## ⚙️ Installation
 
 1. Clone the repo
    ```bash
@@ -43,7 +42,7 @@ These instructions will get you a copy of the project up and running on your loc
      npm run build
    ```
 
-### 📄 Google Chrome / Microsoft Edge
+## ✍🏻 Setup Extension in Your Browser : Google Chrome / Microsoft Edge
 
 1. Open the Extension Management page by navigating to `chrome://extensions` (for Chrome) or `edge://extensions` (for Edge). The Extension Management page can also be opened by clicking on the Chrome menu, hovering over **More Tools** then selecting **Extensions**.
 

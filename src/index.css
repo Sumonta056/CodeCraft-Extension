@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  width: 800px;
+  height: 100%;
+  margin: auto;
+  overflow-y: auto;
+}
+
+@layer utilities {
+  .img-shadow {
+    filter: drop-shadow(40px 50px 25px #000000c7);
+  }
+
+  .text-shadow {
+    text-shadow: 4px 5px 5px #1128015b;
+  }
+}

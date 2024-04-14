@@ -4,7 +4,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Index = () => {
   return (
-    <div className="grid w-full grid-cols-3 gap-4 p-4 overflow-hidden bg-stone-200">
+    <div className="grid grid-cols-2 gap-4 px-4 py-2">
       {TailwindCSS.map((icon) => (
         <div
           key={icon.id}

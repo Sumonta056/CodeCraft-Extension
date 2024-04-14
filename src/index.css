@@ -4,10 +4,9 @@
 @tailwind utilities;
 
 body {
-  width: 800px;
+  width: 700px;
   height: 100%;
   margin: auto;
-  overflow-y: auto;
 }
 
 @layer utilities {

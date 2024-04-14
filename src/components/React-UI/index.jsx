@@ -1,11 +1,11 @@
 import React from "react";
-import { icons } from "../../data.js";
+import { reactUI } from "../../data.js";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Index = () => {
   return (
-    <div className="grid grid-cols-3 gap-4 px-4 py-2">
-      {icons.map((icon) => (
+    <div className="grid grid-cols-2 gap-4 px-4 py-2">
+      {reactUI.map((icon) => (
         <div
           key={icon.id}
           className="flex flex-col items-center p-4 transition-shadow duration-200 bg-white border rounded  group hover:shadow-lg shadow-[0px_10px_1px_rgba(221,_221,_221,_1),_0_10px_20px_rgba(204,_204,_204,_1)] hover:bg-orange-200"

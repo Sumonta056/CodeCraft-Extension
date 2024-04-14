@@ -1,5 +1,9 @@
 <div align ="center">
-  <img src="./public/tools.png" width="100px"><h1>CodeCraft Extension</h1>
+  <img src="./public/tools.png" width="80px"><h1>CodeCraft Extension</h1>
+
+![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=whitee)
+![](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 
 CodeCraft Extension is an open-source project that provides A Complete Toolkit for Software Engineering Students. This project is open to contributions.
 
@@ -28,7 +32,7 @@ These instructions will get you a copy of the project up and running on your loc
    ```
 3. Install NPM packages
    ```bash
-    npm install
+   npm i --legacy-peer-deps
    ```
 4. Run the development server
    ```bash

@@ -8,6 +8,7 @@
 CodeCraft Extension is an open-source project that provides A Complete Toolkit for Software Engineering Students. This project is open to contributions.
 
 ![alt text](./assets/image.png)
+![alt text](./assets/image1.png)
 
 </div>
 

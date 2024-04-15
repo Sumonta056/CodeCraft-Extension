@@ -5,7 +5,7 @@
 ![](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=whitee)
 ![](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 
-CodeCraft Extension is an open-source project that provides A Complete Toolkit for Software Engineering Students. This project is open to contributions.
+CodeCraft Extension is an `open-source` project that provides `A Complete Toolkit` for Software Engineering Students. This project is open to contributions.
 
 <p float="center">
   <img src="./assets/image1.png" width="375" /> 
@@ -18,7 +18,7 @@ CodeCraft Extension is an open-source project that provides A Complete Toolkit f
 
 <div align="center">
 
-### 📝 My Extension: A Complete Setup Guide
+### 📝 `CodeCraft Extension` : A Complete Setup Guide
 
 </div>
 
@@ -72,7 +72,7 @@ Read The Guidelines : <a href="https://github.com/Sumonta056/GitHub-Follower-Not
 
 ### 🔖 License
 
-This project is licensed under the terms of the MIT license.
+This project is licensed under the terms of the [MIT license](./LICENSE).
 
 <hr>
 

@@ -7,18 +7,18 @@
 
 CodeCraft Extension is an open-source project that provides A Complete Toolkit for Software Engineering Students. This project is open to contributions.
 
-![alt text](./assets/image.png)
-![alt text](./assets/image1.png)
+<p float="center">
+  <img src="./assets/image1.png" width="375" /> 
+  <img src="./assets/image.png" width="400" />
+</p>
 
 </div>
 
-## 📝 Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+<hr>
 
 <div align="center">
 
-### ✍🏻 My Extension: A Complete Setup Guide
+### 📝 My Extension: A Complete Setup Guide
 
 </div>
 
@@ -50,7 +50,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 2. The extension's user interface will appear. Here, you can access all the features of the extension.
 
-![alt text](image.png)
+![alt text](./assets/image21.png)
 
 For more detailed instructions on how to use specific features of the extension, refer to the extension's user guide or help documentation.
 

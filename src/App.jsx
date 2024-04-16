@@ -5,13 +5,20 @@ import TailwindTools from "./components/TailwindCSS-Tools/index";
 import ReactUI from "./components/React-UI/index";
 import NoteTaking from "./components/Note-Taking-Tools/index";
 import GitHubTools from "./components/Github-Tools/index";
+import ConversionTools from "./components/Conversion-Tools/Index";
+import CpTools from "./components/Cp Tools/index";
+import MoreTools from "./components/More-Tools/Index";
+import Tools from "./assets/tools.png";
+
 import { AiFillBulb } from "react-icons/ai";
 import { GoTools } from "react-icons/go";
 import { FaReact } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { MdNoteAlt } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
-import Tools from "./assets/tools.png";
+import { FaCode } from "react-icons/fa";
+import { CgMoreR } from "react-icons/cg";
+import { SiConvertio } from "react-icons/si";
 
 const App = () => {
   const [view, setView] = useState("home");
@@ -82,13 +89,42 @@ const App = () => {
         </button>
       </div>
 
+      <div className="flex flex-wrap justify-center p-1 pt-2 space-x-3">
+        <button
+          onClick={() => handleViewChange("ConversionTools")}
+          className={`w-48 justify-center px-4 py-2 rounded shadow-[0_2.8px_2.2px_rgba(0,_0,_0,_0.034),_0_6.7px_5.3px_rgba(0,_0,_0,_0.048),_0_12.5px_10px_rgba(0,_0,_0,_0.06),_0_22.3px_17.9px_rgba(0,_0,_0,_0.072),_0_41.8px_33.4px_rgba(0,_0,_0,_0.086),_0_100px_80px_rgba(0,_0,_0,_0.12)] bg-emerald-500 text-white flex gap-2 items-center font-semibold hover:bg-neutral-700 transform hover:scale-110 transition-transform duration-200`}
+        >
+          <SiConvertio size={20} />
+          Conversion Tools
+        </button>
+        <button
+          onClick={() => handleViewChange("CpTools")}
+          className={`w-48 justify-center px-4 py-2 rounded shadow-[0_2.8px_2.2px_rgba(0,_0,_0,_0.034),_0_6.7px_5.3px_rgba(0,_0,_0,_0.048),_0_12.5px_10px_rgba(0,_0,_0,_0.06),_0_22.3px_17.9px_rgba(0,_0,_0,_0.072),_0_41.8px_33.4px_rgba(0,_0,_0,_0.086),_0_100px_80px_rgba(0,_0,_0,_0.12)] bg-orange-500 text-white flex gap-2 items-center font-semibold hover:bg-neutral-700 transform hover:scale-110 transition-transform duration-200`}
+        >
+          <FaCode size={21} />
+          CP Tools
+        </button>
+        <button
+          onClick={() => handleViewChange("MoreTools")}
+          className={`w-48 justify-center px-4 py-2 rounded shadow-[0_2.8px_2.2px_rgba(0,_0,_0,_0.034),_0_6.7px_5.3px_rgba(0,_0,_0,_0.048),_0_12.5px_10px_rgba(0,_0,_0,_0.06),_0_22.3px_17.9px_rgba(0,_0,_0,_0.072),_0_41.8px_33.4px_rgba(0,_0,_0,_0.086),_0_100px_80px_rgba(0,_0,_0,_0.12)] bg-pink-500 text-white flex gap-2 items-center font-semibold hover:bg-neutral-700 transform hover:scale-110 transition-transform duration-200`}
+        >
+          <CgMoreR size={21} />
+          More Handy-Tool
+        </button>
+      </div>
+
       <div className="flex flex-wrap justify-center w-full p-1 space-x-5">
         {view === "IconSection" && <IconSection />}
         {view === "FrontendTools" && <FrontendTools />}
         {view === "TailwindTools" && <TailwindTools />}
+
         {view === "ReactUI" && <ReactUI />}
         {view === "NoteTaking" && <NoteTaking />}
         {view === "GitHubTools" && <GitHubTools />}
+
+        {view === "ConversionTools" && <ConversionTools />}
+        {view === "CpTools" && <CpTools />}
+        {view === "MoreTools" && <MoreTools />}
       </div>
 
       <footer className="flex items-center justify-center w-full gap-1 pt-2 pb-3 mt-auto text-base text-center text-gray-500 text">

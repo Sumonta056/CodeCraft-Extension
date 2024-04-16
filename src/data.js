@@ -67,6 +67,28 @@ import Drawio from "./assets/draw.io.png";
 // GitHub Tools
 import Typing from "./assets/typing.png";
 
+// CP Tools
+import Graph from "./assets/graphVisualizer.png";
+
+// More Tools
+import CodeImage from "./assets/imageCode.png";
+
+// Conversion Tools
+import Ilovepdf from "./assets/ilovePDF.png";
+import ImageResizer from "./assets/imageResizer.ico";
+import gif1 from "./assets/gif.png";
+import gif2 from "./assets/gif2.png";
+import webp from "./assets/webp.png";
+import i2Image from "./assets/i2Image.svg";
+import i2Pdf from "./assets/i2pdf.svg";
+import i2Text from "./assets/i2Text.svg";
+import Text from "./assets/text.png";
+import Text1 from "./assets/text1.png";
+import OCR from "./assets/ocr.png";
+import webtopdf from "./assets/webpage.png";
+import remover from "./assets/remover.png";
+import remover2 from "./assets/remover2.png";
+
 export const frontendTools = [
   {
     id: 1,
@@ -361,13 +383,12 @@ export const TailwindCSS = [
     link: "https://tailwindcss.com/docs/installation",
     image: <img src={TailwindCSS2} alt="ColorHunt" width="40" height="40" />,
     type: "Button",
-    description:
-      "Official TailwindCSS Documentation for Installation and Usage.",
+    description: "Official TailwindCSS Documentation for you.",
   },
   {
     id: 2,
     name: "TailwindCSS Colors",
-    link: "https://flowbite.com/docs/components/buttons/",
+    link: "https://tailwindcss.com/docs/customizing-colors",
     image: <img src={TailwindCSS4} alt="ColorHunt" width="40" height="40" />,
     type: "Button",
     description:
@@ -396,8 +417,7 @@ export const TailwindCSS = [
     link: "https://flowbite.com/docs/components/buttons/",
     image: <img src={TailwindCSS3} alt="ColorHunt" width="40" height="40" />,
     type: "Button",
-    description:
-      "With support for multiple styles, colors, sizes, gradients, and shadows",
+    description: "With support for multiple styles, colors, sizes, gradients.",
   },
 ];
 
@@ -529,5 +549,143 @@ export const GitHubTools = [
     image: <img src={Typing} alt="ColorHunt" width="40" height="40" />,
     description:
       "Add Typing Animation to GitHub Profile Readme with this tool.",
+  },
+];
+
+export const ConversionTools = [
+  {
+    id: 1,
+    name: "Online Image Tools (i2IMG)",
+    link: "https://www.i2img.com/",
+    image: <img src={i2Image} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Image-To-Text, AI Image Generator, Image Background Remover, Upscale Image, Restore Image ",
+  },
+  {
+    id: 2,
+    name: "Online Text Tools (i2TEXT)",
+    link: "https://www.i2text.com/",
+    image: <img src={i2Text} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Essay Writer, Text Summarizer and Paraphraser, (Title, Keyword, Story, Email, Hashtag) Generator,",
+  },
+  {
+    id: 3,
+    name: "Online PDF Tools (i2PDF)",
+    link: "https://www.i2pdf.com/",
+    image: <img src={i2Pdf} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Edit, Crop, Translate Pdf, OCR Pdf, Merge Pdf and Everything you imagine with PDF is here.",
+  },
+  {
+    id: 4,
+    name: "I LOVE PDF",
+    link: "https://www.ilovepdf.com/",
+    image: <img src={Ilovepdf} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Every tool you need to work with PDFs in one place. Merge, split, compress, convert PDFs.",
+  },
+  {
+    id: 5,
+    name: "Image Resizer",
+    link: "https://imageresizer.com/",
+    image: <img src={ImageResizer} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Resize, crop, compress, convert, and more in just a few clicks!  Resize Image in Bulk.",
+  },
+  {
+    id: 6,
+    name: "Image To Text",
+    link: "https://www.prepostseo.com/image-to-text",
+    image: <img src={Text} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Convert Image to English Text with this tool. For more information please visit the link.",
+  },
+  {
+    id: 7,
+    name: "Image To Bangla Text",
+    link: "https://www.i2ocr.com/free-online-bengali-ocr",
+    image: <img src={Text1} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Convert Image to Bangla Text with this tool. For more information please visit the link.",
+  },
+  {
+    id: 8,
+    name: "Free OCR : Image-Text",
+    link: "https://www.i2ocr.com/",
+    image: <img src={OCR} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Convert Image to Any Language Text with this tool. For more information please visit the link.",
+  },
+  {
+    id: 9,
+    name: "Image Background Remover",
+    link: "https://www.i2img.com/image-background-remover",
+    image: <img src={remover} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Remove Image Background with this tool. For more information please visit the link.",
+  },
+
+  {
+    id: 10,
+    name: "Convert WebP to JPG",
+    link: "https://ezgif.com/webp-to-jpg",
+    image: <img src={webp} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Convert WebP to JPG with this tool. You can also convert to PNG, GIF, etc",
+  },
+  {
+    id: 11,
+    name: "Convert Image to Gif",
+    link: "https://ezgif.com/maker",
+    image: <img src={gif1} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Ezgif.com is a simple, free online GIF maker and toolset for basic animated image editing.",
+  },
+  {
+    id: 12,
+    name: "Gif Transparency Maker",
+    link: "https://onlinegiftools.com/create-transparent-gif",
+    image: <img src={gif2} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "You can remove a single color from a GIF and make GIF's background transparent.",
+  },
+  {
+    id: 13,
+    name: "Gif Background Remover",
+    link: "https://www.unscreen.com/",
+    image: <img src={remover2} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Unscreen is a simple online tool that can remove the background from any GIF.",
+  },
+  {
+    id: 14,
+    name: "Convert Webpage to PDF",
+    link: "https://webtopdf.com/",
+    image: <img src={webtopdf} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Convert Webpage to PDF with this tool. For more information please visit the link.",
+  },
+];
+
+export const CpTools = [
+  {
+    id: 1,
+    name: "Graph Visualizer",
+    link: "https://csacademy.com/app/graph_editor/",
+    image: <img src={Graph} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Graph Visualizer is a tool for visualizing graphs and running algorithms on them.",
+  },
+];
+
+export const MoreTools = [
+  {
+    id: 1,
+    name: "Image of Code",
+    link: "https://ray.so/#code=SGkgSSIKICA",
+    image: <img src={CodeImage} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Generate Beautiful Images of your Code Snippets with this tool.",
   },
 ];

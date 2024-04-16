@@ -3,6 +3,10 @@ import { frontendTools } from "../../data.js";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 
+import TextField from "@material-ui/core/TextField";
+import InputAdornment from "@material-ui/core/InputAdornment";
+import SearchIcon from "@material-ui/icons/Search";
+
 const Index = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [searchResults, setSearchResults] = useState(frontendTools);

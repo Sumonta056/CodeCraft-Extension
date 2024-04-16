@@ -16,6 +16,16 @@ import FreeWebsite from "./assets/Freewebsite.png";
 import CSSTools1 from "./assets/cssTools1.png";
 import GlassMor from "./assets/glassmorphi.png";
 import NeuMor from "./assets/Neumorphism.png";
+import Splide from "./assets/splide.svg";
+import AnimateCSS from "./assets/animatecs.png";
+import Coolors from "./assets/coloors.png";
+import CssStudio from "./assets/cssStudio.png";
+import CssEffects from "./assets/cssEffects.png";
+import CssCode from "./assets/cssCode.png";
+import CssButtons from "./assets/cssButton.png";
+import GradientMagic from "./assets/gradientMagic.png";
+import webTools from "./assets/webtools.png";
+import cssButton3 from "./assets/cssButton3.png";
 
 // Free Icons Tools
 import reactIcons from "./assets/react-icons.png";
@@ -26,6 +36,9 @@ import python from "./assets/python.png";
 import fontaweome from "./assets/fontawesome.svg";
 import animated from "./assets/animated.png";
 import freeIcons from "./assets/bullhorn.png";
+import freepik from "./assets/freepik.png";
+import iconfinder from "./assets/iconfinder.png";
+import Loading from "./assets/loading.png";
 
 // Tailwind CSS Tools
 import TailwindCSS1 from "./assets/tailwindcss.png";
@@ -183,6 +196,77 @@ export const frontendTools = [
     image: <img src={FreeWebsite} alt="ColorHunt" width="40" height="40" />,
     description: "Free Responsive HTML5 Website Templates for your Websites.",
   },
+  {
+    id: 19,
+    name: "Animate.CSS",
+    link: "https://animate.style/#attention_seekers",
+    image: <img src={AnimateCSS} alt="ColorHunt" width="40" height="40" />,
+    description: "Just-add-water CSS animations for web developers.",
+  },
+  {
+    id: 20,
+    name: "Splide Animation",
+    link: "https://splidejs.com/",
+    image: <img src={Splide} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Splide is a free lightweight but powerful slider and carousel.",
+  },
+  {
+    id: 21,
+    name: "Coolors",
+    link: "https://coolors.co/?home",
+    image: <img src={Coolors} alt="ColorHunt" width="40" height="40" />,
+    description: "Generate Color Palettes for your Website or App.",
+  },
+  {
+    id: 22,
+    name: "CSS Studio",
+    link: "http://css3studio.com/index.php",
+    image: <img src={CssStudio} alt="ColorHunt" width="40" height="40" />,
+    description: "A variety of css style generators for your Website or App.",
+  },
+  {
+    id: 23,
+    name: "CSS Effects",
+    link: "http://css3studio.com/page-effect-ex/effect-ex-basic.php",
+    image: <img src={CssEffects} alt="ColorHunt" width="40" height="40" />,
+    description: "A variety of css effects for your Website or App.",
+  },
+  {
+    id: 23,
+    name: "Cool CSS Buttons",
+    link: "https://devsnap.me/css-buttons",
+    image: <img src={CssButtons} alt="ColorHunt" width="40" height="40" />,
+    description: "A variety of css buttons for your Website or App.",
+  },
+  {
+    id: 24,
+    name: "CSS Code Examples",
+    link: "https://devsnap.me/css-code-examples",
+    image: <img src={CssCode} alt="ColorHunt" width="40" height="40" />,
+    description: "A variety of css code examples for your Website or App.",
+  },
+  {
+    id: 25,
+    name: "Web Code Tools",
+    link: "https://webcode.tools/",
+    image: <img src={webTools} alt="ColorHunt" width="40" height="40" />,
+    description: "Various Code generators for front-end development",
+  },
+  {
+    id: 26,
+    name: "CSS Buttons-3",
+    link: "https://cssbuttons.app/",
+    image: <img src={cssButton3} alt="ColorHunt" width="40" height="40" />,
+    description: "A variety of css buttons for your Website or App.",
+  },
+  {
+    id: 26,
+    name: "Gradient Magic",
+    link: "https://www.gradientmagic.com/",
+    image: <img src={GradientMagic} alt="ColorHunt" width="40" height="40" />,
+    description: "A variety of css backgrounds for your Website or App.",
+  },
 ];
 
 export const icons = [
@@ -243,6 +327,30 @@ export const icons = [
     image: <img src={freeIcons} alt="ColorHunt" width="40" height="40" />,
     type: "Type3",
     description: "Large icon packs of over 10k icons in different format",
+  },
+  {
+    id: 8,
+    name: "Freepik Icons",
+    link: "https://www.freepik.com/search?format=search&last_filter=query&last_value=&query=",
+    image: <img src={freepik} alt="ColorHunt" width="40" height="40" />,
+    type: "Type3",
+    description: "Freepik is the largest platform of free vector icons.",
+  },
+  {
+    id: 9,
+    name: "Icon Finder",
+    link: "https://icons8.com/icons",
+    image: <img src={iconfinder} alt="ColorHunt" width="40" height="40" />,
+    type: "Type3",
+    description: "Iconfinder is the leading search engine for vector icons.",
+  },
+  {
+    id: 10,
+    name: "Loading.io",
+    link: "https://loading.io/icon/",
+    image: <img src={Loading} alt="ColorHunt" width="40" height="40" />,
+    type: "Type3",
+    description: "Customizable normal and animated icons for any purpose.",
   },
 ];
 

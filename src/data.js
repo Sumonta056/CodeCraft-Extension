@@ -66,6 +66,17 @@ import Drawio from "./assets/draw.io.png";
 
 // GitHub Tools
 import Typing from "./assets/typing.png";
+import CoolGIF from "./assets/coolsgif.png";
+import Profile from "./assets/profile.png";
+import Badges from "./assets/badges.png";
+import Stats from "./assets/readmestats.png";
+import githubTutorial from "./assets/github tutorials.png";
+import Badges2 from "./assets/badges1.png";
+import Table from "./assets/table.png";
+import Readme from "./assets/readme.png";
+import githubwrapped from "./assets/githubwrapped.png";
+import Markdown from "./assets/markdown.png";
+import summary from "./assets/summaryCard.png";
 
 // CP Tools
 import Graph from "./assets/graphVisualizer.png";
@@ -544,11 +555,99 @@ export const NoteTaking = [
 export const GitHubTools = [
   {
     id: 1,
+    name: "GitHub Tutorials",
+    link: "https://github.com/Sumonta056/GitHub-Tutorial",
+    image: <img src={githubTutorial} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Your one-stop destination for mastering Git and GitHub with comprehensive resources and tutorials",
+  },
+  {
+    id: 2,
+    name: "Profile Readme Templates",
+    link: "https://durgeshsamariya.github.io/awesome-github-profile-readme-templates/#/templates/aastha12",
+    image: <img src={Profile} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "A collection of GitHub profile README templates for developers to showcase their work and skills.",
+  },
+  {
+    id: 3,
+    name: "Cool GIFs for GitHub",
+    link: "https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/blob/main/README.md",
+    image: <img src={CoolGIF} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "A collection of cool GIFs for your GitHub profile README to make it more attractive.",
+  },
+  {
+    id: 4,
+    name: "Badges For GitHub - 1",
+    link: "http://envoy1084.me/awesome-badges/",
+    image: <img src={Badges2} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "A collection of badges for your GitHub profile README to make it more attractive.",
+  },
+  {
+    id: 5,
+    name: "GitHub Readme Stats",
+    link: "https://github.com/anuraghazra/github-readme-stats",
+    image: <img src={Stats} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Get dynamically generated GitHub stats on your readmes without any configuration.",
+  },
+  {
+    id: 6,
+    name: "Badges For GitHub - 2",
+    link: "https://github.com/alexandresanlim/Badges4-README.md-Profile",
+    image: <img src={Badges} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "A collection of badges for your GitHub profile README to make it more attractive.",
+  },
+  {
+    id: 7,
     name: "Readme Typing SVG",
     link: "https://readme-typing-svg.demolab.com/demo/",
     image: <img src={Typing} alt="ColorHunt" width="40" height="40" />,
     description:
       "Add Typing Animation to GitHub Profile Readme with this tool.",
+  },
+  {
+    id: 8,
+    name: "GitHub Wrapped",
+    link: "https://www.githubwrapped.io/",
+    image: <img src={githubwrapped} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Get your GitHub profile wrapped in a beautiful image reflecting on your year with GitHub Wrapped ",
+  },
+  {
+    id: 9,
+    name: "Markdown Guide",
+    link: "https://www.markdownguide.org/basic-syntax/",
+    image: <img src={Markdown} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "A comprehensive guide to Markdown syntax for beginners and advanced users.",
+  },
+  {
+    id: 10,
+    name: "GitHub Profile Summary Card",
+    link: "https://github-profile-summary-cards.vercel.app/demo.html",
+    image: <img src={summary} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Get dynamically generated GitHub stats on your readmes without any configuration.",
+  },
+  {
+    id: 11,
+    name: "GitHub Readme Generator",
+    link: "https://readme.so/editor",
+    image: <img src={Readme} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Readme Generator is a simple tool to generate markdown code for your GitHub README.",
+  },
+  {
+    id: 12,
+    name: "Markdown Table Generator",
+    link: "https://www.tablesgenerator.com/markdown_tables",
+    image: <img src={Table} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Markdown Table Generator is a simple tool to generate markdown table code.",
   },
 ];
 

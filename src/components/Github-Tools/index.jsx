@@ -29,7 +29,7 @@ const Index = () => {
           size={20}
         />
       </div>
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-2 gap-4">
         {searchResults.length > 0 ? (
           searchResults.map((icon) => (
             <div

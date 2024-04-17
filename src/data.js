@@ -83,6 +83,13 @@ import Graph from "./assets/graphVisualizer.png";
 
 // More Tools
 import CodeImage from "./assets/imageCode.png";
+import InstagramDownload from "./assets/instagram.png";
+import FullPage from "./assets/fullpagess.png";
+import Medium from "./assets/medium.png";
+import Wallpaper from "./assets/wallpaper.png";
+import OnlineClock from "./assets/clock.png";
+import QuickRef from "./assets/quickref.png";
+import ImageGenerator from "./assets/imageGnerator.png";
 
 // Conversion Tools
 import Ilovepdf from "./assets/ilovePDF.png";
@@ -781,10 +788,67 @@ export const CpTools = [
 export const MoreTools = [
   {
     id: 1,
+    name: "Fullscreen Online Clock",
+    link: "https://dayspedia.com/time/online/",
+    image: <img src={OnlineClock} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Boost Productivity : A simple and easy to use online clock that shows the current time.",
+  },
+
+  {
+    id: 2,
+    name: "Full Page Screenshot",
+    link: "https://chromewebstore.google.com/detail/fdpohaocaechififmbbbbbknoalclacl",
+    image: <img src={FullPage} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Capture a screenshot of your current page in entirety and works even if the website has animations.",
+  },
+  {
+    id: 3,
+    name: "Medium Article Breaker",
+    link: "https://chromewebstore.google.com/detail/medium-breaker/dccgbfmnbbbaeehljeepffepbdeipjpp",
+    image: <img src={Medium} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Read Paid Medium Articles for free with this Chrome Extension.",
+  },
+  {
+    id: 4,
+    name: "AI Image Generator",
+    link: "https://www.freepik.com/ai/image-generator",
+    image: <img src={ImageGenerator} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "AI Image Generator is a tool that helps you to generate images with AI from text.",
+  },
+  {
+    id: 5,
+    name: "Instagram Video Download",
+    link: "https://snapinsta.app/",
+    image: <img src={InstagramDownload} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Directly Download High Quality Instagram Videos and Photos with this tool.",
+  },
+  {
+    id: 6,
     name: "Image of Code",
     link: "https://ray.so/#code=SGkgSSIKICA",
     image: <img src={CodeImage} alt="ColorHunt" width="40" height="40" />,
     description:
       "Generate Beautiful Images of your Code Snippets with this tool.",
+  },
+  {
+    id: 7,
+    name: "Quick Reference",
+    link: "https://quickref.me/",
+    image: <img src={QuickRef} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Quick Reference for HTML, CSS, JavaScript, React, Node, Express, MongoDB, Python, Django, and more.",
+  },
+  {
+    id: 8,
+    name: "HD Laptop Wallpaper",
+    link: "https://hdqwalls.com/",
+    image: <img src={Wallpaper} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "HD Laptop Wallpapers for your Laptop, Desktop, Mobile, and Tablet.",
   },
 ];

@@ -63,6 +63,9 @@ import Excali from "./assets/excali.png";
 import Eraser from "./assets/eraser.svg";
 import GitBook from "./assets/gitbook.webp";
 import Drawio from "./assets/draw.io.png";
+import Overleaf from "./assets/overleaf.png";
+import Paint from "./assets/paint.png";
+import Kaggle from "./assets/kaggle.png";
 
 // GitHub Tools
 import Typing from "./assets/typing.png";
@@ -80,8 +83,11 @@ import summary from "./assets/summaryCard.png";
 
 // CP Tools
 import Graph from "./assets/graphVisualizer.png";
+import Programiz from "./assets/progamiz.jpg";
 
 // More Tools
+import clipChamp from "./assets/clipchamp.png";
+import Phone from "./assets/phone.png";
 import CodeImage from "./assets/imageCode.png";
 import InstagramDownload from "./assets/instagram.png";
 import FullPage from "./assets/fullpagess.png";
@@ -557,6 +563,30 @@ export const NoteTaking = [
     description:
       "Draw.io is a free online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams.",
   },
+  {
+    id: 5,
+    name: "Overleaf : Latex",
+    link: "https://www.overleaf.com/",
+    image: <img src={Overleaf} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Overleaf is a free online LaTeX editor that's easy to use. No installation, real-time collaboration, version control, hundreds of LaTeX templates, and more.",
+  },
+  {
+    id: 6,
+    name: "Kaggle",
+    link: "https://www.kaggle.com/",
+    image: <img src={Kaggle} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Kaggle is the world's largest data science community with powerful tools and resources to help you achieve your data science goals.",
+  },
+  {
+    id: 7,
+    name: "Draw on Webpage",
+    link: "https://chromewebstore.google.com/detail/jfiihjeimjpkpoaekpdpllpaeichkiod?hl=en",
+    image: <img src={Paint} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Draw on Webpage is a Chrome extension that lets you draw on any webpage with a variety of tools.",
+  },
 ];
 
 export const GitHubTools = [
@@ -783,9 +813,35 @@ export const CpTools = [
     description:
       "Graph Visualizer is a tool for visualizing graphs and running algorithms on them.",
   },
+
+  {
+    id: 2,
+    name: "Progamiz : Online Compiler",
+    link: "https://www.programiz.com/cpp-programming/online-compiler/",
+    image: <img src={Programiz} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Programiz is an online compiler for C, C++, Java, Python, Javascript and more.",
+  },
 ];
 
 export const MoreTools = [
+  {
+    id: -1,
+    name: "ClipChamp - Online Video Editor",
+    link: "https://app.clipchamp.com/",
+    image: <img src={clipChamp} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Clipchamp is an online video editor that lets you create videos quickly and easily.",
+  },
+
+  {
+    id: 0,
+    name: "Mobile - Responsive Testing Tool",
+    link: "https://chromewebstore.google.com/detail/ckejmhbmlajgoklhgbapkiccekfoccmk",
+    image: <img src={Phone} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Test your website responsiveness on any device with this Chrome Extension. It's fast, easy and free",
+  },
   {
     id: 1,
     name: "Fullscreen Online Clock",
@@ -823,7 +879,9 @@ export const MoreTools = [
     id: 5,
     name: "Instagram Video Download",
     link: "https://snapinsta.app/",
-    image: <img src={InstagramDownload} alt="ColorHunt" width="40" height="40" />,
+    image: (
+      <img src={InstagramDownload} alt="ColorHunt" width="40" height="40" />
+    ),
     description:
       "Directly Download High Quality Instagram Videos and Photos with this tool.",
   },

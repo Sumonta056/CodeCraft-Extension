@@ -68,6 +68,7 @@ import Paint from "./assets/paint.png";
 import Kaggle from "./assets/kaggle.png";
 
 // GitHub Tools
+import FirstAid from "./assets/first-aid-kit.png";
 import Typing from "./assets/typing.png";
 import CoolGIF from "./assets/coolsgif.png";
 import Profile from "./assets/profile.png";
@@ -590,6 +591,14 @@ export const NoteTaking = [
 ];
 
 export const GitHubTools = [
+  {
+    id: 0,
+    name: "First Aid Git",
+    link: "https://firstaidgit.io/#/",
+    image: <img src={FirstAid} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "A Searchable Collection of the most frequently asked git questions.",
+  },
   {
     id: 1,
     name: "GitHub Tutorials",

@@ -85,6 +85,7 @@ import summary from "./assets/summaryCard.png";
 // CP Tools
 import Graph from "./assets/graphVisualizer.png";
 import Programiz from "./assets/progamiz.jpg";
+import LeetCode from "./assets/leetcode.png";
 
 // More Tools
 import clipChamp from "./assets/clipchamp.png";
@@ -830,6 +831,15 @@ export const CpTools = [
     image: <img src={Programiz} alt="ColorHunt" width="40" height="40" />,
     description:
       "Programiz is an online compiler for C, C++, Java, Python, Javascript and more.",
+  },
+
+  {
+    id: 3,
+    name: "LeetCode in Vscode",
+    link: "https://youtu.be/zNOJWXZ3i_Q?si=7R-cuu74poTZ29jc",
+    image: <img src={LeetCode} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "LeetCode in VS Code is an extension that helps you solve LeetCode problems in VS Code.",
   },
 ];
 

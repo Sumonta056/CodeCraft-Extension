@@ -86,6 +86,13 @@ import summary from "./assets/summaryCard.png";
 import Graph from "./assets/graphVisualizer.png";
 import Programiz from "./assets/progamiz.jpg";
 import LeetCode from "./assets/leetcode.png";
+import Striver from "./assets/tuf.png";
+import JS from "./assets/javascript.png";
+import SQL from "./assets/SQL.png";
+import Codolio from "./assets/codolio.svg";
+import Tree from "./assets/tree.png";
+import TLE from "./assets/TLE.png";
+import Youknowwho from "./assets/youknowwho.png";
 
 // More Tools
 import clipChamp from "./assets/clipchamp.png";
@@ -98,6 +105,9 @@ import Wallpaper from "./assets/wallpaper.png";
 import OnlineClock from "./assets/clock.png";
 import QuickRef from "./assets/quickref.png";
 import ImageGenerator from "./assets/imageGnerator.png";
+import ExpertsTools from "./assets/ExpertTools.png";
+import Adobe from "./assets/adobe.png";
+import Vocal from "./assets/vocal.png";
 
 // Conversion Tools
 import Ilovepdf from "./assets/ilovePDF.png";
@@ -814,6 +824,12 @@ export const ConversionTools = [
   },
 ];
 
+// CP Tools
+// CP Tools
+// CP Tools
+// CP Tools
+// CP Tools
+
 export const CpTools = [
   {
     id: 1,
@@ -841,7 +857,72 @@ export const CpTools = [
     description:
       "LeetCode in VS Code is an extension that helps you solve LeetCode problems in VS Code.",
   },
+
+  {
+    id: 4,
+    name: "Striver Cp Sheet",
+    link: "https://takeuforward.org/interview-experience/strivers-cp-sheet",
+    image: <img src={Striver} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Striver CP Sheet is a curated list of DSA problems for interview preparation.",
+  },
+
+  {
+    id: 5,
+    name: "TLE Eliminators Cp Sheet",
+    link: "https://www.tle-eliminators.com/cp-sheet",
+    image: <img src={TLE} alt="ColorHunt" width="40" height="40" />,
+    description:
+      " TLE Eliminators CP Sheet is a curated list of problems based on Codeforce Rating.",
+  },
+
+  {
+    id: 6,
+    name: "YouKnowWho Topic List",
+    link: "https://youkn0wwho.academy/topic-list",
+    image: <img src={Youknowwho} alt="ColorHunt" width="40" height="40" />,
+    description: "A comprehensive list of topics in Competitive Programming",
+  },
+  {
+    id: 7,
+    name: "Tree Structure Visualizer",
+    link: "https://tree.nathanfriend.io/?s=(%27options!(%27fancy*~fullPath!false~trailingSlash*~rootDot*)~-(%27-%27%27)~version!%271%27)*!true-source!%01-*",
+    image: <img src={Tree} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Tree Structure Visualizer is a tool for visualizing tree like data structures.",
+  },
+
+  {
+    id: 8,
+    name: "Codolio",
+    link: "https://codolio.com/",
+    image: <img src={Codolio} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Build your all-in-one coding portfolio with Codolio. Track your problem solving websites",
+  },
+  {
+    id: 9,
+    name: "Online Javascript Compiler",
+    link: "https://nextleap.app/online-compiler/javascript-programming",
+    image: <img src={JS} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Online JavaScript Compiler is a tool for running javascript code online. ",
+  },
+
+  {
+    id: 10,
+    name: "Online SQL Compiler",
+    link: "https://www.programiz.com/sql/online-compiler/",
+    image: <img src={SQL} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Online SQL Compiler is a tool for running SQL queries online.",
+  },
 ];
+
+// More Tools
+// More Tools
+// More Tools
+// More Tools
 
 export const MoreTools = [
   {
@@ -927,5 +1008,30 @@ export const MoreTools = [
     image: <img src={Wallpaper} alt="ColorHunt" width="40" height="40" />,
     description:
       "HD Laptop Wallpapers for your Laptop, Desktop, Mobile, and Tablet.",
+  },
+
+  {
+    id: 9,
+    name: "Adobe Podcast",
+    link: "https://podcast.adobe.com/",
+    image: <img src={Adobe} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "High-quality audio editing, AI-powered transcription and professional recording capabilities.",
+  },
+  {
+    id: 10,
+    name: "Vocal Remover & Isolation",
+    link: "https://vocalremover.org/",
+    image: <img src={Vocal} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Separate voice from music out of a song free with powerful AI algorithms",
+  },
+  {
+    id: 11,
+    name: "Experts Tool",
+    link: "https://www.expertstool.com/",
+    image: <img src={ExpertsTools} alt="ColorHunt" width="40" height="40" />,
+    description:
+      "Different downloader, converters, speedtests and many others tools.",
   },
 ];
